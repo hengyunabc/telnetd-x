@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>new.wimpi.telnetd-x</groupId>
+    <artifactId>telnetd</artifactId>
+    <version>2.1</version>
+    <packaging>jar</packaging>
+    <name>telnetd-x</name>
+    <url>http://code.google.com/p/telnetd-x/</url>
+    <description>The Java Telnet Daemon</description>
+    <licenses>
+        <license>
+          <name>Modified BSD TelnetD license</name>
+          <url>http://telnetd.sourceforge.net/license.html</url>
+          <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <url>https://telnetd-x.googlecode.com/svn/trunk/ telnetd-xhttps://telnetd-x.googlecode.com/svn/trunk/</url>
+        <connection>telnetd-x</connection>
+    </scm>
+    <dependencies>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.9</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.1</version>
+        </dependency>
+    </dependencies>
+</project>
