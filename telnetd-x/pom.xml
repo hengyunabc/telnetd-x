@@ -15,7 +15,7 @@
         </license>
     </licenses>
     <scm>
-        <url>https://telnetd-x.googlecode.com/svn/trunk/ telnetd-xhttps://telnetd-x.googlecode.com/svn/trunk/</url>
+        <url>https://telnetd-x.googlecode.com/svn/trunk/</url>
         <connection>telnetd-x</connection>
     </scm>
     <dependencies>
