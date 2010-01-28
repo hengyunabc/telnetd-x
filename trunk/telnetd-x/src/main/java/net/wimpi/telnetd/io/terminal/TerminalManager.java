@@ -127,20 +127,20 @@ public class TerminalManager {
     /**
      * Loads the terminals and prepares an instance of each.
      */
-    private void setupTerminals(HashMap terminals) {
+    private void setupTerminals(HashMap terminalsMap) {
 
         String termname = "";
         String termclass = "";
         Terminal term = null;
         Object[] entry = null;
 
-        for (Iterator iter = terminals.keySet().iterator(); iter.hasNext();) {
+        for (Iterator iter = terminalsMap.keySet().iterator(); iter.hasNext();) {
             try {
                 //first we get the name
                 termname = (String) iter.next();
 
                 //then the entry
-                entry = (Object[]) terminals.get(termname);
+                entry = (Object[]) terminalsMap.get(termname);
 
                 //then the fully qualified class string
                 termclass = (String) entry[0];
